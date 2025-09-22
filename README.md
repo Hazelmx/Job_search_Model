@@ -1,7 +1,7 @@
 # Job_search_Model
 This repository contains a simulation-based study of the McCall job-search model, extended with reinforcement learning (Q-learning) and Bayesian updating for unknown wage-offer distributions. The project compares classical dynamic programming methods with machine learning approaches to study convergence, reservation wages, and unemployment dynamics.
 
- **Project Contents**
+ ***Project Contents***
 
 Job Search Model (Search with Learning).ipynb
 Main Jupyter notebook containing:
@@ -18,21 +18,21 @@ Q-learning Implementation: Uses temporal-difference learning with an ε-greedy p
 
 Simulations & Plots: Demonstrates unemployment dynamics under different wage-offer distributions and learning setups.
 
-**Methods Implemented**
+***Methods Implemented***
 
-Dynamic Programming Baseline
+**Dynamic Programming Baseline**
 
 Bellman equation solved by VFI.
 
 Visualizes convergence of value functions and reservation wages.
 
-Q-learning with Temporal-Difference Updates
+**Q-learning with Temporal-Difference Updates**
 
 Implements an agent-based simulation with exploration–exploitation tradeoffs.
 
 Compares learning outcomes against the dynamic-programming baseline.
 
-Unknown Wage-Offer Distributions
+**Unknown Wage-Offer Distributions**
 
 Bayesian learning over Beta families of wage distributions.
 
