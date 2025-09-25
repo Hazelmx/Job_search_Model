@@ -2,6 +2,16 @@
 This repository contains a simulation-based study of the McCall job-search model, extended with reinforcement learning (Q-learning) and Bayesian updating for unknown wage-offer distributions. The project compares classical dynamic programming methods with machine learning approaches to study convergence, reservation wages, and unemployment dynamics.
 This project also links a Python implementation of the job search model with a NetLogo agent-based simulation.
 
+***Theratical foundation***
+
+job_search_model.pdf provides the theoretical foundation and mathematical derivation of the McCall job-search model.
+
+It explains how unemployed workers decide whether to accept or reject wage offers by solving dynamic programming problems. 
+
+The document derives the Bellman equation, introduces the concept of the reservation wage, and extends the framework to cases with unknown wage distributions.
+
+It also formalizes Bayesian belief updating and develops the Reservation Wage Fixed-Point Equation (RWFE), which links beliefs about wage distributions to optimal job acceptance thresholds.
+
  ***Python code Contents***
 
 Job Search Model (Search with Learning).ipynb
