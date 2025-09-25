@@ -58,7 +58,7 @@ Plots included: Unemployment rate, Average belief, Average reservation wage, Bel
 
 1.Run Python solver
 
-Job Search Model (Search with Learning).ipynb
+File: Job Search Model (Search with Learning).ipynb
 
 
 This generates reservation_wage.csv.
